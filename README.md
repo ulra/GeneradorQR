@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Generador de Codigo QR hecho con React Js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El proyecto en React JS que genera códigos QR es una aplicación web que permite al usuario ingresar un texto o enlace y generar un código QR correspondiente. La aplicación utiliza la biblioteca "qrcode.react" para generar los códigos QR y los muestra en la interfaz de usuario en tiempo real. Además, la aplicación permite al usuario descargar el código QR generado como una imagen PNG para su uso posterior. El diseño y la interfaz de usuario son intuitivos y fáciles de usar, lo que permite una experiencia de usuario fluida y satisfactoria
 
-## Available Scripts
+## Construido con 🛠️
 
-In the project directory, you can run:
+_En el proyecto se utilizaron las siguientes herramientas principales_
 
-### `npm start`
+* ReactJS: Es una biblioteca de JavaScript para construir interfaces de usuario. En este proyecto se utilizó para desarrollar la interfaz de usuario y la lógica de la aplicación.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* QRCode.react: Es una biblioteca de React para generar códigos QR de forma fácil y rápida. Se utilizó para generar los códigos QR en la aplicación.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React Router: Es una biblioteca de React para manejar la navegación en una aplicación de una sola página. Se utilizó para crear rutas y enlaces en la aplicación.
 
-### `npm test`
+* Bootstrap: Es un framework de CSS para diseñar sitios web responsivos y móviles. Se utilizó para el diseño de la interfaz de usuario de la aplicación.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* ReactColor: Es una biblioteca de React para elegir colores. Se utilizó para permitir al usuario elegir los colores para el fondo y el texto del código QR.
 
-### `npm run build`
+* html-to-image: Es una biblioteca de JavaScript para convertir un elemento HTML en una imagen. Se utilizó para generar una imagen del código QR para descargar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* FileSaver.js: Se utilizo para permitir al usuario descargar la imagen del código QR generada en la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
